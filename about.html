@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Hakkımızda - Doğuş Civata</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="apple-touch-icon" href="assets/img/welding.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/screw.ico" />
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/templatemo.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap" />
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css" />
+
+    <style>
+        .about-img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            border-radius: 5px;
+            border: 3px solid black;
+        }
+
+        @media (max-width: 992px) {
+            .about-img {
+                max-width: 700px;
+            }
+        }
+
+
+        @media (max-width: 576px) {
+            .about-img {
+                max-width: 100%;
+                margin-top: 20px;
+            }
+        }
+
+
+        .map-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            height: 350px;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .map-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+
+        @media (max-width: 992px) {
+            .map-container {
+                height: 400px;
+                max-width: 700px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .map-container {
+                height: 450px;
+                max-width: 100%;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="templatemo_nav_top"
+        style="background-color: #ffcc33 !important; border: 1px solid black !important;">
+        <div class="container text-light">
+            <div class="w-100 d-flex justify-content-between">
+                <div>
+                    <i class="fa fa-envelope mx-2" style="color: black !important;"></i>
+                    <a class="navbar-sm-brand text-decoration-none" href="mailto:doguscivata46@hotmail.com"
+                        style="color: black !important;">doguscivata46@hotmail.com</a>
+                    <i class="fa fa-phone mx-2" style="color: black !important;"></i>
+                    <a class="navbar-sm-brand text-decoration-none" href="tel:+90-532-179-2746"
+                        style="color: black !important;">0 (532) 179 2746</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-light shadow" style="background-color: #ffcc33 !important;">
+        <div class="container d-flex justify-content-between align-items-center">
+            <a class="navbar-brand text-success logo h1 align-self-center" style="color: black !important; "
+                href="index.html">
+                Doğuş Civata
+            </a>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="align-self-center collapse navbar-collapse flex-fill d-lg-flex justify-content-lg-between"
+                id="templatemo_main_nav">
+                <div class="flex-fill">
+                    <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Ana Sayfa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">Hakkımızda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">İletişim</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navbar align-self-center d-flex">
+                    <div class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3">
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="inputMobileSearch" placeholder="Search ..." />
+                            <div class="input-group-text">
+                                <i class="fa fa-fw fa-search"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <a class="text-dark" href="https://www.facebook.com/doguscivatahirdavat" target="_blank"
+                            rel="sponsored"><i class="fab fa-facebook-f fa-2x fa-fw me-2"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="w-100 pt-1 mb-5 text-right">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form action="" method="get" class="modal-content modal-body border-0 p-0">
+                <div class="input-group mb-2">
+                    <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Search ..." />
+                    <button type="submit" class="input-group-text bg-success text-light">
+                        <i class="fa fa-fw fa-search text-white"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <section class="bg-success py-5" style="background-color: whitesmoke !important;">
+        <div class="container">
+            <div class="row align-items-center py-5">
+                <div class="col-md-8 text-white" style="color: black !important;">
+                    <h1>Hakkımızda</h1>
+                    <p>
+                        Doğuş Civata Hırdavat Rulman olarak, yaklaşık 40 senelik
+                        tecrübemiz ve profesyonel ekibimizle sektörün kalbindeyiz.
+                        Bölgenin ilk ve tek tedarikçisi olmanın verdiği güçle, civatadan
+                        hırdavata, rulmandan el aletlerine ve madeni yağlara kadar tüm
+                        ürün gruplarını tek bir çatı altında topluyor, müşterilerimizin
+                        ihtiyaçlarını anında karşılamayı hedefliyoruz. Bizim için işler
+                        asla mesai saatleriyle sınırlı kalmaz; sizin için ekstra mesai
+                        yaparak haftanın her günü sabah 08.00'den akşam 19.00'a kadar
+                        hizmet veriyor, acil durumlar için ise 7/24 ulaşılabilir durumda
+                        kalıyoruz. Çünkü biliyoruz ki, en büyük başarımız size sunduğumuz
+                        kesintisiz destek ve güvenilir iş ortaklığıdır.
+                    </p>
+                </div>
+                <div class="col-md-4 ps-md-4 text-center">
+                    <img class="about-img" src="assets/img/dogus2.jpg" alt="About Hero" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container py-5">
+        <div class="row text-center pt-5 pb-3">
+            <div class="col-lg-6 m-auto">
+                <h1 class="h1">Başlıca Hizmetlerimiz</h1>
+                <p>
+                    Aldığınız ürünleri ayağınıza kadar getirmekten, arıza yaşadığınızın
+                    ürünün tamiratına kadar her konuda yanınızdayız.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-lg-3 pb-5">
+                <div class="h-100 py-5 services-icon-wap shadow" style="background-color: #ffcc33 !important;">
+                    <div class="h1 text-success text-center">
+                        <i class="fa fa-truck fa-lg" style="color: black !important;"></i>
+                    </div>
+                    <h2 class="h5 mt-4 text-center">Servis</h2>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 pb-5">
+                <div class="h-100 py-5 services-icon-wap shadow" style="background-color: #ffcc33 !important;">
+                    <div class="h1 text-success text-center">
+                        <i class="fas fa-exchange-alt" style="color: black !important;"></i>
+                    </div>
+                    <h2 class="h5 mt-4 text-center">Teknik Destek</h2>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 pb-5">
+                <div class="h-100 py-5 services-icon-wap shadow" style="background-color: #ffcc33 !important;">
+                    <div class="h1 text-success text-center">
+                        <i class="fa fa-percent" style="color: black !important;"></i>
+                    </div>
+                    <h2 class="h5 mt-4 text-center">Rekabetçi Fiyat</h2>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 pb-5">
+                <div class="h-100 py-5 services-icon-wap shadow" style="background-color: #ffcc33 !important;">
+                    <div class="h1 text-success text-center">
+                        <i class="fa fa-user" style="color: black !important;"></i>
+                    </div>
+                    <h2 class="h5 mt-4 text-center">Kesintisiz Hizmet</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="bg-light py-5" style="background-color: whitesmoke !important;">
+        <div class="container my-4">
+            <div class="row text-center py-3">
+                <div class="col-lg-6 m-auto">
+                    <h1 class="h1">Markalarımız</h1>
+                    <p>
+                        Büyük Dünya markalarından, fiyatlarıyla rekabetçi olan bütün
+                        markaları bulundurmakta, sizlere geniş bir ürün yelpazesi
+                        sunmaktayız.
+                    </p>
+                </div>
+                <div class="col-lg-9 m-auto tempaltemo-carousel">
+                    <div class="row d-flex flex-row">
+
+                        <div class="col-1 align-self-center">
+                            <a class="h1" href="#templatemo-slide-brand" role="button" data-bs-slide="prev">
+                                <i class="text-light fas fa-chevron-left"></i>
+                            </a>
+                        </div>
+
+
+
+                        <div class="col">
+                            <div class="carousel slide carousel-multi-item pt-2 pt-md-0" id="templatemo-slide-brand"
+                                data-bs-ride="carousel">
+
+                                <div class="carousel-inner product-links-wap" role="listbox">
+
+                                    <div class="carousel-item active">
+                                        <div class="row">
+                                            <div class="col-3 p-md-5">
+                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/bosch.png"
+                                                        alt="Brand Logo" /></a>
+                                            </div>
+                                            <div class="col-3 p-md-5">
+                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/makita.png"
+                                                        alt="Brand Logo" /></a>
+                                            </div>
+                                            <div class="col-3 p-md-5">
+                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/dewalt.png"
+                                                        alt="Brand Logo" /></a>
+                                            </div>
+                                            <div class="col-3 p-md-5">
+                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/hilti.png"
+                                                        alt="Brand Logo" /></a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                            <div class="col-3 p-md-5">
+                                                <a href="#"><img class="img-fluid brand-img"
+                                                        src="assets/img/askaynak.png" alt="Brand Logo" /></a>
+                                            </div>
+                                            <div class="col-3 p-md-5">
+                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/specco.png"
+                                                        alt="Brand Logo" /></a>
+                                            </div>
+                                            <div class="col-3 p-md-5">
+                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/baymax.png"
+                                                        alt="Brand Logo" /></a>
+                                            </div>
+                                            <div class="col-3 p-md-5">
+                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/metabo.png"
+                                                        alt="Brand Logo" /></a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-1 align-self-center">
+                            <a class="h1" href="#templatemo-slide-brand" role="button" data-bs-slide="next">
+                                <i class="text-light fas fa-chevron-right"></i>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer style="background-color: #ffcc33 !important;" id="tempaltemo_footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-success border-bottom pb-3 border-light logo" style="color: black !important;">
+                        Doğuş Civata Hırdavat
+                    </h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li style="color: black !important;">
+                            <i class="fas fa-map-marker-alt fa-fw" style="color: black !important;"></i>
+                            Yavuz Selim Mahallesi Tornacılar Caddesi No: 24 Dulkadiroğlu /
+                            KAHRAMANMARAŞ
+                        </li>
+                        <li style="color: black !important;">
+                            <i class="fa fa-phone fa-fw"></i>
+                            <a class="text-decoration-none" href="tel:+90-532-179-2746"
+                                style="color: black !important;">0 (532) 179 2746</a>
+                        </li>
+                        <li style="color: black !important;">
+                            <i class="fa fa-phone fa-fw"></i>
+                            <a class="text-decoration-none" href="tel:+90-532-179-2746"
+                                style="color: black !important;">0 (538) 096 6346</a>
+                        </li>
+                        <li style="color: black !important;">
+                            <i class="fa fa-envelope fa-fw"></i>
+                            <a class="text-decoration-none" href="mailto:doguscivata46@hotmail.com"
+                                style="color: black !important;">doguscivata46@hotmail.com</a>
+                        </li>
+                        <br>
+                        <li style="color: black !important;">
+                            <i class="fab fa-whatsapp fa-fw" href="https://wa.me/905321792746"></i>
+                            <a class="text-decoration-none" href="https://wa.me/905321792746" target="_blank"
+                                style="color: black !important;">WhatsApp
+                                Destek Hattı 1</a>
+                        </li>
+                        <li style="color: black !important;">
+                            <i class="fab fa-whatsapp fa-fw" href="https://wa.me/905380966346"></i>
+                            <a class="text-decoration-none" href="https://wa.me/905380966346" target="_blank"
+                                style="color: black !important;">WhatsApp
+                                Destek Hattı 2</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-light border-bottom pb-3 border-light" style="color: black !important;">
+                        Ürünler
+                    </h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li><a class="text-decoration-none" href="#" style="color: black !important;">Civata</a></li>
+                        <li><a class="text-decoration-none" href="#" style="color: black !important;">Hırdavat</a></li>
+                        <li><a class="text-decoration-none" href="#" style="color: black !important;">Rulman</a></li>
+                        <li><a class="text-decoration-none" href="#" style="color: black !important;">El Aletleri</a>
+                        </li>
+                        <li>
+                            <a class="text-decoration-none" href="#" style="color: black !important;">Madeni Yağlar</a>
+                        </li>
+                        <li><a class="text-decoration-none" href="#" style="color: black !important;">Kayış</a></li>
+                        <li>
+                            <a class="text-decoration-none" href="#" style="color: black !important;">Şantiye
+                                Malzemeleri (Ranza, Yatak vs.)</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 pt-5">
+                    <a href="https://maps.app.goo.gl/A8NWeMCfa5TxgeeC9" target="_blank"
+                        class="h2 text-success fw-bold border-bottom pb-3 border-light d-block text-center"
+                        style="color: black !important;">
+                        Yol tarifi için buraya tıklayınız.
+                    </a>
+                    <div class="map-container">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235.06743389444992!2d36.956257632436795!3d37.56265422687504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x152de77e50676723%3A0x5be7dc5f3df39115!2zRG_En3XFnyBDaXZhdGEgSMSxcmRhdmF0IFJ1bG1hbg!5e0!3m2!1str!2str!4v1755466336733!5m2!1str!2str"
+                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row text-light mb-4">
+                <div class="col-12 mb-3">
+                    <div class="w-100 my-3 border-top border-light"></div>
+                </div>
+                <div class="col-12 text-center">
+                    <ul class="list-inline footer-icons">
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank"
+                                href="https://www.facebook.com/doguscivatahirdavat">
+                                <i class="fab fa-facebook-f fa-3x " style="color: black !important;"></i>
+                            </a>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="text-light"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-100 bg-black py-3" style="text-align: center">
+            <div class="container">
+                <div class="row pt-2">
+                    <div class="col-12">
+                        <p class="text-left text-light" style="color: white !important;">
+                            Copyright &copy; 2025 - Doğuş Civata Hırdavat Rulman <br />
+                            <br>
+                            <a rel="sponsored" href="https://www.linkedin.com/in/asrindoguskaluman" target="_blank"
+                                style="color: white !important;">Asrın
+                                Doğuş Kaluman</a> tarafından geliştirilmiştir.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="assets/js/jquery-1.11.0.min.js"></script>
+    <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/templatemo.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+</body>
+
+</html>
